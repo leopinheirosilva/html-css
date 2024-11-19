@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            /* 
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc 
+            
+            Medidas relativas:
+            em, ex, rem, vw, vh, %
+            */
+        }
+        h1{
+            /* shorthand font
+            ordem: font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif; 
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+            
+        }
+        h2{
+            font: italic bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta facere eius enim repudiandae ducimus, ipsum rem delectus necessitatibus quo neque eveniet minima, aliquid dignissimos aut, esse ab nulla quibusdam cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deserunt expedita labore? Dicta accusantium porro cupiditate corrupti, laboriosam accusamus in dolores sit quibusdam autem, veritatis quos nobis ipsa libero voluptates?Lorem ipsum dolor sit amet consectetur adipisicing elit. At, distinctio. Id quod libero impedit corrupti nostrum officiis harum, vel nisi consequatur ipsam, repellendus eos temporibus accusantium nam tempora fuga sapiente?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde veniam ipsum aliquid odit soluta accusamus, quasi quidem? Commodi totam, cupiditate animi at, id asperiores quasi rerum error harum odit corrupti.</p>
+</body>
+</html>

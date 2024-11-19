@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="midias/imagens/imagens-dinamicas/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="midias/imagens/imagens-dinamicas/foto-m.png" type="image/png">
+        <img src="midias/imagens/imagens-dinamicas/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midias/audios/birthday-cake.mp3" controls></audio>
+    <!-- MP3 WAV OGG-->
+
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="700px" muted autoplay controls loop> <!-- Você também pode inserir thumbnails através do parâmetro poster--> 
+        <source src="midias/videos/video1.mp4" type="video/mp4">
+        <source src="midias/videos/Video1.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="700" height="450" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=OfOFwPcz21UuTbuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
