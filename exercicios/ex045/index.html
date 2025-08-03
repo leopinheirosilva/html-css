@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="#" method="post">
+                    <div class="caixa">
+                        <label for="iemail"> <i class="material-icons">person</i> </label>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required >
+                    </div>
+
+                    <div class="caixa">
+                        <label for="ipssw"> <i class="material-icons">vpn_key</i> </label>
+                        <input type="password" name="pssw" id="ipssw" placeholder="sua senha" minlength="6" maxlength="12" required >
+                    </div>
+
+                    <input id="entrar" type="submit" value="Entrar">
+
+                    <a href="esqueci.html"> Esqueci a senha <i id="email" class="material-icons">email</i> </a>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+
+</html>

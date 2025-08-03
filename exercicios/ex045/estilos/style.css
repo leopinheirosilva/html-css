@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #5F2C82;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+#login {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 1px 19px rgba(0, 0, 0, 0.404);
+    transition: width .3s, heigh .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+div#imagem {
+    display: block;
+    background-image: url(../midias/edificio.jpg);
+    background-position: left center;
+    background-size: 130%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+div.caixa {
+    background-color: #5F2C82;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+
+i {
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+input {
+    position: relative;
+    left: 10px;
+    background-color: #aedad8;
+    padding: 3px;
+    margin: 1px;
+    border-radius: 10px;
+    width: 230px;
+    height: 30px;
+}
+
+input:focus-within{
+    background-color: white;
+}
+
+form > input#entrar {
+    background-color: #5cbbb9;
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-size: 1em;
+    color: white;
+    transform: translateX(-10px);
+}
+
+form > input#entrar:hover{
+    background-color: #3d7c7b;
+    cursor:pointer;
+}
+
+form > a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 1.5px solid #56918f;
+    border-radius: 10px;
+    margin: 5px 0px 30px 10px;
+    width: 92%;
+    padding: 10px;
+    color: rgb(85, 85, 85);
+    transform: translatex(-8px);
+}
+
+#email{
+    font-size: 1.1em;
+    left: -1px;
+    top: 5px;
+}
+
+form > a:hover{
+    background-color: #d2fcfa;
+}
+
+i#email{
+    color: rgb(85, 85, 85);
+}
+
+
+
