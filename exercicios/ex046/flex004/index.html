@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Box 2</title>
+    <title>Flexible Box 4</title>
     <style>
         div.container{
             display: flex;
-            flex-direction: column; /*column, column-reverse, row, row-reverse*/
-            flex-wrap: nowrap; /*determina quebra de conteúdo dentro do container*/
+            height: 300px;
+            flex-flow: row nowrap;
+            justify-content: flex-start; /*alinha os itens do eixo principal*/
+            align-items: center; /*alinha os itens do eixo transversal*/
             background-color: lightsalmon;
         }
 
@@ -16,7 +18,6 @@
            background-color: lightblue;
            border: 1px solid black;
            text-align: center; 
-           padding: 10px;
         }
     </style>
 </head>
