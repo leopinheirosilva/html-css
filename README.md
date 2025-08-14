@@ -150,3 +150,19 @@ Curso de HTML5 e CSS3 do CursoemVideo
 <a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex002" target="_blank" rel="external">Execultar o exercicio 046/flex002</a>
 
 <a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex003" target="_blank" rel="external">Execultar o exercicio 046/flex003</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex004" target="_blank" rel="external">Execultar o exercicio 046/flex004</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex005" target="_blank" rel="external">Execultar o exercicio 046/flex005</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex006" target="_blank" rel="external">Execultar o exercicio 046/flex006</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex007" target="_blank" rel="external">Execultar o exercicio 046/flex007</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex008" target="_blank" rel="external">Execultar o exercicio 046/flex008</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex009" target="_blank" rel="external">Execultar o exercicio 046/flex009</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex010" target="_blank" rel="external">Execultar o exercicio 046/flex010</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex011" target="_blank" rel="external">Execultar o exercicio 046/flex011</a>
