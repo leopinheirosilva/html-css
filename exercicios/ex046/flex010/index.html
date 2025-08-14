@@ -15,16 +15,29 @@
            text-align: center;
            border: 1px solid black;
            flex-basis: 300px;
-           flex-shrink: 1; /*determina se o item pode encolher ou não (0 ou 1)*/
-           flex-grow: 0; /*determina se o item pode expandir ou não (0 ou 1)*/
+        }
+
+        #i1{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        #i2{
+            flex-grow: 2; /*determina o quanto o item pode ampliar (0,1,2...)*/
+            flex-shrink: 1; 
+        }
+
+        #i3{
+            flex-grow: 1;
+            flex-shrink: 2; /*determina o quanto o item pode encolher (0,1,2...)*/
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
     </div>
      
 </body>
