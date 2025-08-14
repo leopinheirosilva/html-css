@@ -11,10 +11,12 @@
         }
 
         div.item{
-           flex: auto; /*preenche todo o espaço vazio do container*/
            background-color: lightblue;
-           padding: 10px;
-           border: 1px solid black; 
+           text-align: center;
+           border: 1px solid black;
+           flex-basis: 300px;
+           flex-shrink: 1; /*determina se o item pode encolher ou não (0 ou 1)*/
+           flex-grow: 0; /*determina se o item pode expandir ou não (0 ou 1)*/
         }
     </style>
 </head>
@@ -23,10 +25,6 @@
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
     </div>
      
 </body>
