@@ -166,3 +166,5 @@ Curso de HTML5 e CSS3 do CursoemVideo
 <a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex010" target="_blank" rel="external">Execultar o exercicio 046/flex010</a>
 
 <a href="https://leopinheirosilva.github.io/html-css/exercicios/ex046/flex011" target="_blank" rel="external">Execultar o exercicio 046/flex011</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex047" target="_blank" rel="external">Execultar o exercicio 047</a>
