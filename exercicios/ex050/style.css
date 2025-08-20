@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template: repeat(3, 100px) 50px / 1fr 2fr 1fr;
+}
+
+header{
+    grid-area: 1 / 1 / 2 / -1;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    grid-area: 2 / 1 / span 2 / span 2;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+
+section.secundario{
+    grid-area: 2 / 3 / span 2 / -1;
+    background-color: rgb(172, 80, 80);
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    grid-area: 4 / 1 / span 1 / 4;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px;
+}
