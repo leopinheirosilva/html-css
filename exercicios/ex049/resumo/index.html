@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo Grid Layout</title>
+</head>
+<body>
+    <h1>Resumo sobre Grid Layout</h1>
+
+    <p>Para saber mais, acesso o código fonte</p>
+
+    <!--
+        *container:
+            grid-template-rows (define a quantidade e o tamanho de linhas: auto, 100px, 50%, 1fr, repeat(2, auto)...)
+            grid-template-columns (define a quantidade e o tamanho das colunas: auto, 100px, 50%, 1fr, repeat (2, auto)...)
+            grid-template (shorthand para grid-template-rows + grid-template-columns: 100px 100px 100px / auto auto auto)
+
+            grid-auto-rows (define o tamanho de uma nova linha quando for adicionada: auto, 100px, 50%, 1fr...)
+            grid-auto-columns (define o tamanho de uma nova coluna quando for adicionada: 100px, 50%... (valor não pode ser auto))
+
+            grid-auto-flow (determina se os itens vão ser mostrados em linhas(rows) ou colunas(columns))
+
+            gap (espaçamento entre os itens dentro do grid: 5px, 10px...)
+
+            align-items (alinha os itens no eixo vertical: start, end, stretch, center)
+            justify-items (alinha os itens no eixo horizontal: start, end, stretch, center)
+            align-content (alinha o conteudo no eixo vertical: start, end, stretch, center, space-between, space-around...)
+            justify-content (alinha o conteudo no eixo horizontal: start, end, stretch, center, space-between, space-around...)
+            place-items (shorthand para align-items + justify-items)
+            place-content (shorthand para align-content + justify-content)
+
+        *itens:
+            grid-row-start (define em que linha(line) a linha(row) irá começar: 1, -1, 2...)
+            grid-row-end (define em que linha(line) a linha(row) irá terminar: 1, 2, -2...) 
+            grid-column-start (define em que linha a coluna irá começar: 1, span 3, 2...)
+            grid-column-end (define em que linha a coluna irá terminar: 1, 2, span 2...)
+
+            grid-row (shorthand para grid-row-start + grid-row-end: 1 / -1)
+            grid-column (shorthand para grid-column-start + grid-column-end: 2 / span 2)
+
+            grid-area (shorthand para grid-row-start + grid-column-start + grid-row-end + grid-column-end)
+
+            span (determina em quantas linhas(line) a mais o conteúdo será adiconado)
+    -->
+</body>
+</html>
