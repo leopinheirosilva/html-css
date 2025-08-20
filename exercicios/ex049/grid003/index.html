@@ -8,13 +8,14 @@
         div.container{
             border: 3px solid blue;
             display: grid;
-            grid-template-rows: 80px 80px 80px;
-            grid-template-columns: 120px 120px 120px;
-            grid-auto-flow: column; /*determina se os elementos vão ser mostrados em linhas ou colunas*/
+            grid-template-rows: repeat(3, 80px);
+            grid-template-columns: 100px 40% repeat(2, 1fr);
+            grid-auto-flow: row; /*determina se os elementos vão ser mostrados em linhas ou colunas*/
             grid-auto-rows: 80px;
+            grid-auto-columns: 120px;
             gap: 10px;  
-            place-items: normal; 
-            place-content: normal;  
+            place-items: normal normal; 
+            place-content: normal normal;  
         }
 
         div.item{
