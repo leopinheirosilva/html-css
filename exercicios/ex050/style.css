@@ -10,8 +10,10 @@ body{
 }
 
 .container{
+    height: 100vh;
+    width: 100vw;
     display: grid;
-    grid-template: 100px 50px 300px 50px / 1fr 30%;
+    grid-template: 100px 50px 1fr 50px / 1fr 30%;
 }
 
 .caixa{
