@@ -182,3 +182,5 @@ Curso de HTML5 e CSS3 do CursoemVideo
 <a href="https://leopinheirosilva.github.io/html-css/exercicios/ex049/grid005" target="_blank" rel="external">Execultar o exercicio 049/grid005</a>
 
 <a href="https://leopinheirosilva.github.io/html-css/exercicios/ex049/grid006" target="_blank" rel="external">Execultar o exercicio 049/grid006</a>
+
+<a href="https://leopinheirosilva.github.io/html-css/exercicios/ex050" target="_blank" rel="external">Execultar o exercicio 050</a>
