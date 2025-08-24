@@ -25,6 +25,7 @@ header#topo {
     grid-area: 1 / 1 / 2 / -1;
     background-color: aquamarine;
     color: black;
+    padding: 30px;
 }
 
 menu#menu {
